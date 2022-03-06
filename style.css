@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,300;1,700&family=Yanone+Kaffeesatz:wght@200;400&display=swap');
+body {
+    padding: 0px;
+    margin-top: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+.prodcut{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+
+.one{
+    position: relative;
+    height: 290px;
+    width: 218px;
+    overflow: hidden;
+    background-image: url("product-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid red;
+    transition: 1s ease-in-out;
+}
+
+.icon{
+    position: absolute;
+    bottom: 30%;
+    padding: auto;
+    right: 15%;
+    width: 32px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    font-size: x-large;
+}
+.icon-2{
+    position: absolute;
+    bottom: 30%;
+    padding: auto;
+    right: 40%;
+    width: 32px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    font-size: x-large;
+}
+.icon-3{
+    position: absolute;
+    bottom: 30%;
+    padding: auto;
+    left: 15%;
+    width: 32px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    font-size: x-large;
+}
+
+.one:hover{
+    box-shadow: 7px 13px 18px -7px rgba(133, 125, 125, 0.7);
+}
+
+.one:hover .icon{
+    opacity: 1 !important;
+    bottom: 40%;
+}
+.one:hover .icon-2{
+    opacity: 1 !important;
+    bottom: 40%;
+}
+
+.one:hover .icon-3{
+    opacity: 1 !important;
+    bottom: 40%;
+}
+
+.icon:hover ,.icon-2:hover ,.icon-3:hover{
+    background-color: rgba(238, 13, 13, 0.781);
+    color: white;
+    transform: rotate(360deg)
+}
+.price{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #0b1c39;
+    font-size: 20px;
+}
+.name{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #0b1c39;
+    font-size: 20px;
+}
+.star{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #f3db02cc;
+    font-size: 20px;
+
+
+}
